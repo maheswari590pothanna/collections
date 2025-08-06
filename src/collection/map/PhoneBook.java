@@ -1,4 +1,4 @@
-package collection;
+package collection.map;
 
 import java.util.Map;
 import java.util.Scanner;

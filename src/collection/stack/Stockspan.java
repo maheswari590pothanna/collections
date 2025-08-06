@@ -1,6 +1,4 @@
-package collection;
-
-import java.util.Stack;
+package collection.stack;
 
 public class Stockspan {
     private static void calculatespan(int[] ar) {

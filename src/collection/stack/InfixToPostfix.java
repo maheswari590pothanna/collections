@@ -1,6 +1,5 @@
-package collection;
+package collection.stack;
 
-import java.util.Scanner;
 import java.util.Stack;
 
 public class InfixToPostfix {
