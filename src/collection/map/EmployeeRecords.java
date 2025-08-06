@@ -25,7 +25,7 @@ public class EmployeeRecords {
             int choice;
 
             do {
-                System.out.println("\n👨‍💼 Employee Record System");
+                System.out.println("\n Employee Record System");
                 System.out.println("1. Add Employee");
                 System.out.println("2. Search Employee by ID");
                 System.out.println("3. Display All Employees");

@@ -10,7 +10,7 @@ public class PhoneBook {
         Scanner scanner = new Scanner(System.in);
         int choice;
         do {
-            System.out.println("\n📱 Phone Book Menu:");
+            System.out.println("\n Phone Book Menu:");
             System.out.println("1. Add Contact");
             System.out.println("2. Remove Contact");
             System.out.println("3. Search Contact");
@@ -50,14 +50,14 @@ public class PhoneBook {
                     break;
 
                 case 4:
-                    System.out.println("\n📇 All Contacts:");
+                    System.out.println("\n All Contacts:");
                     for (Map.Entry<String, String> entry : phoneBook.entrySet()) {
                         System.out.println(entry.getKey() + " -> " + entry.getValue());
                     }
                     break;
 
                 case 5:
-                    System.out.println("Exiting Phone Book. 👋");
+                    System.out.println("Exiting Phone Book.");
                     break;
 
                 default:
